@@ -1,0 +1,77 @@
+/*used on the top for links */
+header {
+  background-color: #333;
+  padding: 10px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  margin-right: 100px;
+}
+
+nav a {
+  color: white;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: white;
+}
+
+/* all body text and background image*/
+body {
+  background-image: url('img/lluvia-morales-wII2zC7DZUY-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+/* images*/
+img.circle {border-radius: 50%;}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+/* index columns*/
+div.index {
+  column-count: 2;
+  column-gap: 50px;
+}
+
+
+/* used in the service page for columns
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_flexible_box_layout/Basic_concepts_of_flexbox
+*/
+.columns-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.column {
+  width: 23%;
+  background-color: darkgray;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.column h2 {
+  background-color: #333;
+  color: #ffffff;
+  padding: 10px 0;
+  margin: 0;
+}
